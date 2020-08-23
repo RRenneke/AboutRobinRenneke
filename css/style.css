@@ -75,6 +75,11 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.tileHeader {
+  text-align: center;
+  font-size: 15px;
+}
+
 div.gallery {
   border: 1px solid #ccc;
 }
@@ -90,7 +95,6 @@ div.gallery img {
 
 div.desc {
   padding: 15px;
-  text-align: center;
 }
 
 * {
@@ -100,12 +104,12 @@ div.desc {
 .responsive {
   padding: 0 6px;
   float: left;
-  width: 24.99999%;
+  width: 33.3%;
 }
 
 @media only screen and (max-width: 700px) {
   .responsive {
-    width: 49.99999%;
+    width: 33.3%;
     margin: 6px 0;
   }
 }

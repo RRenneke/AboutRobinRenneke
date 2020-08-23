@@ -59,6 +59,7 @@ body {
 .projectHeader {
   font-size: 17px;
   padding-left: 10px;
+  text-decoration-style: wavy;
 }
 
 .projectDescription {

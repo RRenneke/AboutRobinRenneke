@@ -1,21 +1,18 @@
-body {
-    color: #222222;
-    font-size: 1em;
-    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+* {
+  box-sizing: border-box;
 }
 
-.container {
-  position: relative;
-  width: 50%;
-  text-align: center;
+/*Birch tree background on all three files*/
+body{
+  background-image:url("img/birch\ tree\ twounsplash.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:100vh;
+  width: 100vw;
+  background-attachment: fixed;
 }
 
-.computerImage {
-  display: block;
-  width: 100%;
-  height: 300px;
-}
-
+/*Fun fact overlay on index page*/
 .overlay {
   position: absolute;
   bottom: 0;
@@ -28,12 +25,14 @@ body {
   transition: .9s ease;
   border-color: white;
   border-radius: 20px;
+  position: center;
 }
-
+/*Fun fact overlay on index page*/
 .container:hover .overlay {
   height: 100%;
 }
 
+/*Fun fact overlay text on index page*/
 .text {
   font-size: 17px;
   position: absolute;
@@ -45,77 +44,9 @@ body {
   word-wrap: break-word;
 }
 
+/*Green Box Margins*/
 .alert-success {
   margin: 15px;
-}
-
-.linkList {
-  padding-right: 15px;
-  padding-left: 150px;
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.projectHeader {
-  font-size: 17px;
-  padding-left: 10px;
-  text-decoration-style: wavy;
-}
-
-.projectDescription {
-  font-style: italic;
-}
-
-.footer {
-  width: auto; 
-  margin: 1px;
-  text-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.tileHeader {
-  text-align: center;
-  font-size: 15px;
-}
-
-div.gallery {
-  border: 1px solid #ccc;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 33.3%;
-}
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 33.3%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
 }
 
 .clearfix:after {
@@ -124,7 +55,3 @@ div.desc {
   clear: both;
 }
 
-.moreInformation {
-  font-style: italic;
-  font-weight: 900;
-}
